@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products details - Art Wish Box</title>
+    <link rel="stylesheet" href="style.css">
+    <!---<link rel="stylesheet" href="link rel="preconnect href="https://fonts.googleapis.com">--->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+     <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images/Art_Wish_Box_logo.png" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Начална страница</a></li>
+                    <li><a href="products.html">Продукти</a></li>
+                    <li><a href="about_us.html">За нас</a></li>
+                    <li><a href="contact_us.html">Контакти</a></li>
+                    <li><a href="account.html">Акаунт</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="images/cart-icon.png" width="30px" height="30px"></a>
+            <img src="images/menu_icon.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+     </div>
+
+<!------------------------Single products details------------------------->
+
+     <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/12_pleteni_keychains_flowers.png" width="100%" id="productImg">
+            
+
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="images/12_pleteni_keychains_flowers.png" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/12.1.png" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/12.2.png" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-2">
+                <p>Начална страница / Ръчна изработка</p>
+                <h1>Мини букет от рози – ръчно плетени ключодържатели</h1>
+                <h4>7.00 €</h4>
+                <select>
+                    <option>Избери цвeтове</option>
+                    <option>Червен</option>
+                    <option>Бял</option>
+                    <option>Розов</option>
+                </select>
+                <input type="Брой" value="1">
+                <a href="" class="btn">Добави в количката</a>
+                <h3>За продукта:</h3>
+                <br>
+                <p>Ръчно изработени плетени ключодържатели – „Букет рози“ са уникален 
+                    аксесоар, който съчетава стил, нежност и практичност. Всяка розичка 
+                    е изтъкана с грижа и внимание към детайла, превръщайки ключодържателя 
+                    в малък шедьовър, който носи радост и усмивка.
+                Подходящи за подарък или като декоративен акцент на чантата, раницата или 
+                ключовете, тези плетени рози добавят индивидуалност и топлина във всеки ден. 
+                Размерът е компактен, но достатъчен, за да се забелязва и да впечатлява с красивите си детайли.</p>
+            </div>
+        </div>
+     </div>
+
+<!-------------------The-Artist---------------------->
+
+    <div class="hero">
+        <div class="card">
+            <h1>От:</h1>
+            <br>
+            <h2>Виктория Георгиева</h2>
+            <a href=""><p>@yarn.flower.studio</p></a>
+            <img src="images/user_icon.png" alt="">
+            <div class="artist">
+                <p>Виктория Георгиева съчетава мекотата на текстила с артистичен усет към 
+                    формата и цветовете. Нейният стил е нежен, модерен и създаден с внимание 
+                    към малките детайли, които правят всяко изделие специално. <br>
+                    Тя вярва, че ръчната изработка носи топлина и индивидуалност, които 
+                    превръщат всеки подарък в личен жест. <br>
+                    Освен готовите артикули в нашия сайт, Виктория приема и персонализирани поръчки, 
+                    съобразени с предпочитанията на клиента.</p>
+            </div>
+            <a href="" class="btn">Свържи се с твореца</a>
+        </div>
+    </div>
+
+
+<!-------------------Title---------------------->
+<div class="small-container">
+    <div class="row row-2">
+        <h2>Подобни продукти</h2>
+        <a href="products.html"><p>Виж още</p></a>
+    </div>
+</div>
+
+
+
+
+<!-------------------Products---------------------->
+    <div class="small-container">
+
+        <div class="row">
+            <div class="col-4">
+                <a href="product_details_HM_knitted_flowers.html"><img src="images/11_pleteni_flowers.png">
+                <h4>Букет от плетени цветя</h4>
+                </a>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>15.00 €</p>
+            </div>
+            <div class="col-4">
+                <a href="product_details_dog_painting.html"><img src="images/2_Cat_art_Dog.png">
+                <h4>Персонализирана картина на вашия домашен любимец</h4>
+                </a>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>25.00 €</p>
+            </div>
+            <div class="col-4">
+                <a href="product_details_paper_flowers.html"><img src="images/5_Paper_Flowers.png">
+                <h4>Букет от хартиени цветя</h4>
+                </a>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>15.00 €</p>
+            </div>
+            <div class="col-4">
+                <a href="product_details_set_Nivea_Daily_Hydration.html"><img src="images/14_Nivea_set_5.png">
+                <h4>Подаръчен комплект - Nivea Daily Hydration Set 5 части</h4>
+                </a>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>23.00 €</p>
+            </div>
+        </div>
+
+       
+    </div>
+
+<!------------------------footer------------------------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Изтегли нашето приложението!</h3>
+                    <p>Изтегли приложението от мобилни устройства на Android или IOS</p>
+                    <div class="app-logo">
+                        <a href="https://play.google.com/store" target="_blank"><img src="images/google-play-icon.png"></a>
+                        <a href="https://www.apple.com/app-store/" target="_blank"><img src="images/app-store-icon.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/app-icon-nobg.png" alt="">
+                    <p>Нашата цел е да направим избирането на оригинален подарък лесно и удобно.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Полезни линкове</h3>
+                    <ul>
+                        <li>Промо кодове</li>
+                        <li>Статии</li>
+                        <li>Политика за връщане</li>
+                        <li>Стани партньор</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Послесвай ни!</h3>
+                    <ul>
+                        <a href="https://www.facebook.com/" target="_blank"><li>Facebook</li></a>
+                        <a href="https://www.instagram.com/" target="_blank"><li>Instagram</li></a>
+                        <a href="https://www.tiktok.com/explore" target="_blank"><li>TikTok</li></a>
+                        <a href="https://www.pinterest.com/" target="_blank"><li>Pinterest</li></a>
+                    </ul>
+                </div>
+                
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2026 - Djan Delihasanov</p>
+        </div>
+    </div>
+
+
+<!------------------------js for toggle menu------------------------->
+    <script>
+        var MenuItems = document.getElementById("MenuItems")
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "200px"
+                }
+            else
+                {
+                    MenuItems.style.maxHeight = "0px"
+                }
+        }
+    </script>
+
+<!-------------------------Js for product gallerry------------------------------>
+    <script>
+        var productImg = document.getElementById("productImg");
+        var smallImg = document.getElementsByClassName("small-img");
+
+            smallImg[0].onclick = function(){
+                productImg.src = smallImg[0].src;
+            }
+            smallImg[1].onclick = function(){
+                productImg.src = smallImg[1].src;
+            }
+            smallImg[2].onclick = function(){
+                productImg.src = smallImg[2].src;
+            }
+            smallImg[3].onclick = function(){
+                productImg.src = smallImg[3].src;
+            }
+    </script>
+
+</body>
+</html>
